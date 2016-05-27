@@ -12,7 +12,7 @@ This is a simple example file. Not for use in production.
 To Use w/ Heroku
 -----
 
-You'll need the FFMPEG buildpack here https://github.com/ManicCharm/heroku-buildpack-ffmpeg-lameenabled . Add to your buildpack multi or setting on your Heroku app. 
+You'll need the FFMPEG buildpack here https://github.com/JeffreyCastellano/heroku-buildpack-ffmpeg-lameenabled . Add to your buildpack multi or setting on your Heroku app. 
 
     $ ls
     .buildpacks
