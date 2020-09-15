@@ -1,7 +1,7 @@
 Watson TTS service for Heroku php with FFMPEG buildpack 
 =======================
 
-This is an example of how to use PHP with bluemix services (in this case Text to Speech) and converting the output file into an MP3 or audio format needed.
+Sometimes you need PHP. When you do, this example shows you how to use it with IBM Cloud services (in this case Text to Speech) and converting the output file into an MP3 or audio format needed.
 
 Caution
 -----
@@ -19,7 +19,7 @@ You'll need the FFMPEG buildpack here https://github.com/JeffreyCastellano/herok
     ...
     
     $ cat .buildpacks
-    https://github.com/ManicCharm/heroku-buildpack-ffmpeg-lameenabled
+    https://github.com/JeffreyCastellano/heroku-buildpack-ffmpeg-lameenabled
     https://github.com/heroku/heroku-buildpack-play
 
     $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi
